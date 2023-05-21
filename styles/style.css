@@ -1,0 +1,36 @@
+/* styles text within html tag this by default*/
+html {
+    font-size: 10px; /*px means pixels*/
+    font-family: "Open Sans", sans-serif;
+    background-color: lightpink;
+}
+
+h1 {
+    margin: 0; /*padding around content, margin around border */
+    padding: 20px 0; /* 20 value top and bot, 0 value left and right*/
+    color: lightpink;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 3px 3px 1px rgb(255, 102, 64); /*hori offset, verti offset, blur radius*/
+
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto; /* 0 margin on top, auto margin to left and right*/
+    background-color: rgb(255, 234, 209);
+    padding: 0 20px 20px 20px;
+    border: 5px solid rgb(255, 102, 64);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+}
